@@ -150,7 +150,7 @@ public class ConnectPlugin extends CordovaPlugin {
             @Override
             public void onSuccess(Sharer.Result result) {
                 if (showDialogContext != null) {
-                    showDialogContext.success(result.getPostId());
+                    showDialogContext.success("success");
                     showDialogContext = null;
                 }
             }
